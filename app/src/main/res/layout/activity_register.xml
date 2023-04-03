@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register_act">
+
+
+
+    <Button
+        android:id="@+id/rcreatebutton"
+        android:layout_width="304dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_button"
+        android:text=" Create Account"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/rname"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="21dp"
+        android:hint="     Enter Your Name"
+        app:layout_constraintBottom_toTopOf="@+id/textInputEditText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/remail"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="21dp"
+        android:hint="     Enter Your Email"
+        app:layout_constraintBottom_toTopOf="@+id/textInputEditText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/rphonenumber"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="333dp"
+
+        android:layout_height="50dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="21dp"
+        android:hint="     Enter Phone number"
+        app:layout_constraintBottom_toTopOf="@+id/textInputEditText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/rpass"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="21dp"
+        android:hint="     Enter your Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/rcpass"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="21dp"
+        android:hint="     Enter Confirm  Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="97dp"
+        android:textSize="25dp"
+        android:text="        Register Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="155dp"
+        android:layout_height="48.86dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="199.4dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:text="Phone Number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="155dp"
+        android:layout_height="48.86dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:text="Google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="134dp"
+        android:text="  Or Sign up with"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

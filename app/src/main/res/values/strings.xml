@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">INFITS</string>
+    <string name="link">
+        <a href="https://www.figma.com/file/AqaJ296dANOEQdqTAOukIZ/infits_dietian?node-id=1%3A6582">Forgot password?</a></string>
+    <string name="Next">
+        <a href="https://www.figma.com/file/AqaJ296dANOEQdqTAOukIZ/infits_dietian?node-id=1%3A6582">Next</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
